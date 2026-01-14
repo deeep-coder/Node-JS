@@ -1,0 +1,23 @@
+*  Modules are encapsulated units of code that can be reused across different parts of an application. 
+   Modules help organize code into smaller, manageable pieces, promote code reusability, and facilitate better maintainability and scalability of NodeJS applications.
+
+*  Types of Modules:
+
+(1) Core Modules: Core modules are built-in modules provided by NodeJS.
+                  They offer essential functionalities such as fs,os,http,path,crypto etc. 
+                  
+
+(2)Third-Party Modules:Third-party modules are created by the NodeJS community or external developers and are hosted on package registries like npm. 
+                 Developers can install third-party modules using npm and include them in their applications using require().
+                 for example : express,mongoose,jsonwebtoken,axios etc.
+
+(3)Custom Modules:Custom modules are user-defined modules created by developers to encapsulate reusable code. 
+                  Developers can create custom modules by defining functions, objects, or classes in separate files and exporting them using the module.exports or exports object.
+                 
+
+*Benefits of Using Modules:
+
+Encapsulation: Modules encapsulate code, allowing developers to hide implementation details and expose only the necessary interfaces or functionalities.
+Code Reusability: Modules promote code reusability by enabling developers to reuse modules across different parts of an application or in multiple applications.
+Maintainability: Modular code is easier to maintain and refactor, as changes made to a module's implementation do not affect other parts of the application.
+Scalability: Modules help organize code into smaller, manageable units, making it easier to scale applications as they grow in complexity.
